@@ -52,7 +52,6 @@ template_projects:
 - builtin_files:
   - files_and_folders:
     - .config
-    - .config.old
     - .cproject
     - .gitignore
     - .project
