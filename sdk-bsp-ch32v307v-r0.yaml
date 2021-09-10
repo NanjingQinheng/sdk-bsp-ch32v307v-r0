@@ -65,7 +65,6 @@ template_projects:
     - libraries
     - link.lds
     - makefile.targets
-    - packages
     - README.md
     - rt-thread
     - rtconfig.h
