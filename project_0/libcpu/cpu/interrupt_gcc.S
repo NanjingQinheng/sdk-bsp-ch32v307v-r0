@@ -16,12 +16,11 @@ SW_handler:
     /* save all from thread context */
     addi sp, sp, -32 * REGBYTES
     STORE x1,   1 * REGBYTES(sp)
+    STORE x5,   5 * REGBYTES(sp)
 	/* saved mstatus */
     csrr t0,    mstatus
     STORE t0,   2 * REGBYTES(sp)
-
     STORE x4,   4 * REGBYTES(sp)
-    STORE x5,   5 * REGBYTES(sp)
     STORE x6,   6 * REGBYTES(sp)
     STORE x7,   7 * REGBYTES(sp)
     STORE x8,   8 * REGBYTES(sp)
