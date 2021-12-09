@@ -2,7 +2,7 @@ board:
   buy_url_cn: N/A
   buy_url_global: N/A
   debug_interface: SWD
-  debugger: WCH_LINK
+  debugger: WCH-LINK
   description_en: 'CH32V307V-R0 is a development board based on the 32bit RISC-V core
     launched by WCH. The highest frequency is 144Mhz. '
   description_zh: CH32V307V-R0 是 WCH 推出的一款基于 RISC-V 内核的开发板，最高主频为 144Mhz。
