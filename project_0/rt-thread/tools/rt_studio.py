@@ -219,7 +219,7 @@ uart_name=
 tx_pin_name=
 rtt_nano_path=
 output_project_path=
-hardware_adapter=J-Link
+hardware_adapter=WCH-Link
 project_name=${project_name}"""
 
 eclipse_core_runtime_temp = """content-types/enabled=true
