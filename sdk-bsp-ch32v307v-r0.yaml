@@ -5,17 +5,17 @@ board:
   debugger: WCH-LINK
   description_en: 'CH32V307V-R0 is a development board based on the 32bit RISC-V core
     launched by WCH. The highest frequency is 144Mhz. '
-  description_zh: CH32V307V-R0 是 WCH 推出的一款基于 RISC-V 内核的开发板，最高主频为 144Mhz。
+  description_zh: CH32V307V-R1 是 WCH 推出的一款基于 RISC-V 内核的开发板，最高主频为 144Mhz。
   emulator_machine: ''
   large_image: documents/images/board2.jpg
-  name: CH32V307V-R0
+  name: CH32V307V-R1
   price_cn: N/A CNY
   price_global: N/A USD
   sale_contact_cn: http://www.wch.cn
   sale_contact_global: http://www.wch.cn
   small_image: documents/images/board1.png
   vendor: WCH
-  version: 1.0.0
+  version: 1.0.3
 chip:
   chip_name: CH32V307VCT6
   clock_source: HSE
@@ -39,15 +39,17 @@ features:
 - Buttons：3, Reset， User and Download.
 - Buttons：3, Reset， User and Download.
 - ETH：1, built-in 10M PHY.
+- Onboard WCH link download debugging tool.
 features_zh:
 - MCU：CH32V307VCT6，主频 144MHz，FLASH和RAM可配置
 - LED：2个，用户 LEDs， LED1（blue），LED2(red)。
 - 按键：3个，Reset， User 和 Download。
 - USB：2个，Tpye-C; 2个， USB-A。
 - 网口：1个，内置 10M PHY。
+- 板载 WCH-Link 下载调试工具。
 pkg_type: Board_Support_Packages
 pkg_vendor: WCH
-pkg_version: 1.0.0
+pkg_version: 1.0.3
 template_projects:
 - builtin_files:
   - files_and_folders:
