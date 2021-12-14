@@ -13,7 +13,7 @@
 #define RT_USING_HOOK
 #define RT_USING_IDLE_HOOK
 #define RT_IDLE_HOOK_LIST_SIZE 4
-#define IDLE_THREAD_STACK_SIZE 256
+#define IDLE_THREAD_STACK_SIZE 512
 
 /* kservice optimization */
 
@@ -155,6 +155,13 @@
 
 /* multimedia packages */
 
+/* LVGL: powerful and easy-to-use embedded GUI library */
+
+/* end of LVGL: powerful and easy-to-use embedded GUI library */
+
+/* u8g2: a monochrome graphic library */
+
+/* end of u8g2: a monochrome graphic library */
 /* end of multimedia packages */
 
 /* tools packages */

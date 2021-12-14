@@ -96,7 +96,7 @@ config RT_USING_IDLE_HOOK
 
 config IDLE_THREAD_STACK_SIZE
     int "The stack size of idle thread"
-    default 256
+    default 512
 
 config SYSTEM_THREAD_STACK_SIZE
     int "The stack size of system thread (for defunct etc.)"

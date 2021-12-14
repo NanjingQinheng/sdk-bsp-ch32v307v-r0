@@ -24,7 +24,7 @@
 
 extern int _ebss;
 #define HEAP_BEGIN  ((void *)&_ebss)
-#define HEAP_END    SRAM_END
+#define HEAP_END    (SRAM_END-_stack_size)
 
 //extern volatile unsigned long  interrupter_sp_saver;
 void rt_hw_board_init(void);
