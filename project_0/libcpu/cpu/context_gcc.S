@@ -39,6 +39,7 @@ rt_hw_interrupt_enable:
 rt_hw_context_switch_to:
     /* first save interrupt stack */
 	la t0, _eusrstack
+	addi t0, t0, -512
     csrw mscratch,t0
 
     LOAD sp, (a0)
